@@ -1,0 +1,11 @@
+com/example/passkit/controller/PassController.class
+com/example/passkit/repository/DeviceRegistrationRepository.class
+com/example/passkit/repository/PassMetadataRepository.class
+com/example/passkit/service/APNsService.class
+com/example/passkit/controller/WalletWebServiceController.class
+com/example/passkit/service/PassGeneratorService.class
+com/example/passkit/model/PassMetadata.class
+com/example/passkit/model/PassMetadata$PassStatus.class
+com/example/passkit/service/PassRegistrationService.class
+com/example/passkit/model/DeviceRegistration.class
+com/example/passkit/PassKitApplication.class
