@@ -44,13 +44,13 @@ public class PassGeneratorService {
 
     private static final Logger logger = LoggerFactory.getLogger(PassGeneratorService.class);
 
-    @Value("${passkit.certificate.path:backend/certs/pass-certificate.pem}")
+    @Value("${passkit.certificate.path:PassKITPoc/certs/pass-certificate.pem}")
     private String certificatePath;
 
-    @Value("${passkit.privatekey.path:backend/certs/pass-private-key.pem}")
+    @Value("${passkit.privatekey.path:PassKITPoc/certs/pass-private-key.pem}")
     private String privateKeyPath;
 
-    @Value("${passkit.wwdr.path:backend/certs/wwdr.pem}")
+    @Value("${passkit.wwdr.path:PassKITPoc/certs/wwdr.pem}")
     private String wwdrPath;
 
     @Value("${passkit.pass.typeIdentifier:pass.com.example.passkit}")
