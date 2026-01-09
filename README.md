@@ -285,21 +285,5 @@ Algorithm (RC2-40-CBC) unsupported
 
 ---
 
-## 15. Support
 
-If you see:
 
-```
-Invalid data error reading pass
-```
-
-Check:
-
-1. Certificate issuer
-2. Key match
-3. pass.json identifiers
-4. WWDR chain
-
----
-
-✅ Once all steps pass, Apple Wallet will accept the `.pkpass` successfully.
